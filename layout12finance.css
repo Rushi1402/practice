@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+}
+
+.nav-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/Finance/IMG-20231227-WA0003.jpg);
+    background-position: center;
+
+}
+
+.header {
+    width: 20%;
+    height: 20vh;
+    margin-top: 10px;
+}
+
+.header h1 {
+    color: blue;
+    padding-left: 15px;
+}
+
+.menu {
+    width: 60%;
+    height: 20vh;
+    margin-top: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu ul li {
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+
+}
+
+.about {
+    width: 20%;
+    height: 20vh;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.explore {
+    width: 60%;
+    height: 70vh;
+    padding: 20px 50px;
+    /* border: 2px solid red; */
+}
+
+.explore h3 {
+    color: blue;
+}
+
+.explore h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+.explore a button {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 5vh;
+}
+
+.box2-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+
+}
+
+.box2-div .img-div {
+    width: 40%;
+    height: 70vh;
+    /* border: 2px solid red; */
+}
+
+.box2-div .img-info {
+    width: 40%;
+    height: 70vh;
+    padding: 5vh;
+    text-align: justify;
+    /* border: 2px solid red; */
+}
+
+.box2-div .img-info h2 {
+    font-size: 6vh;
+}
+
+.box2-div .img-info p {
+    margin-top: 15px;
+}
+
+
+
+.box2-div .ad-section {
+    width: 80%;
+    height: 30vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.box2-div .ad-section .b1 {
+    width: 25%;
+    height: 25vh;
+    border: 2px solid red;
+}
+
+.footer-div {
+
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    background-color: blue;
+    color: white;
+
+
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 20%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.footer-div .boxa {
+    /* border: 2px solid black; */
+    height: 35vh;
+    width: 15%;
+    padding-top: 10vh;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.footer-div .boxa h1 {
+    font-size: 9vh;
+}

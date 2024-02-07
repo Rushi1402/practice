@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    border: 2px solid rgb(58, 24, 24);
+    border-radius: 10px;
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+
+
+header h1 {
+    color: white;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.main-div {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-div .nav-div {
+    width: 60%;
+    min-height: 40px;
+    margin-top: 15px;
+
+}
+
+.nav-div a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-div a:hover {
+    background-color: lightcoral;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+
+.main-div .search {
+    width: 40%;
+    min-height: 40px;
+    margin-left: 500px;
+    margin-top: 15px;
+
+
+}
+
+aside {
+    width: 34%;
+    min-height: 750px;
+    float: right;
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    margin-top: 10px;
+
+}
+
+
+
+aside .box-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 5%;
+
+}
+
+aside .box-div .box {
+    width: 45%;
+    border-style: outset;
+    margin: 10px;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+aside h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+aside p {
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+aside .widget-div {
+    width: 100%;
+    max-height: 190px;
+}
+
+li {
+    list-style: inside;
+    margin-left: 10px;
+}
+
+
+article {
+    width: 65%;
+    background-color: bisque;
+    margin-top: 10px;
+    min-height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+article h2 {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+article p {
+    text-align: justify;
+    margin: 10px;
+
+}
+
+article p button {
+    align-items: center;
+    margin-top: 40px;
+
+
+    /* background-color: red; */
+}
+
+
+
+section {
+    width: 65%;
+    min-height: 540px;
+
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .header-div {
+    margin: 10px;
+    width: 47%;
+    max-height: 220px;
+    border-style: outset;
+    padding: 10px;
+    text-align: justify;
+}
+
+footer {
+    min-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-style: outset;
+    padding-top: 10px;
+}

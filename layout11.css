@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header-div {
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.header-div .logo {
+    width: 15%;
+    height: 60px;
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+}
+
+.header-div .logo img {
+    width: 50%;
+    height: 100%;
+}
+
+.header-div .menu {
+    width: 62%;
+    height: 60px;
+    border: 2px solid red;
+    align-items: center;
+
+}
+
+.header-div .menu ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.header-div .menu ul li a {
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.header-div .menu ul li a:hover {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.header-div .icons {
+    width: 20%;
+    height: 60px;
+    border: 2px solid red;
+    padding-top: 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+    border: 2px solid green;
+    background-image: linear-gradient(45deg, red, yellow, green, orange);
+}
+
+.box-div1 {
+    width: 100%;
+    height: 40vh;
+    margin-top: 10px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-div1 .box1 {
+    width: 32%;
+    height: 40vh;
+    border: 2px solid cyan;
+
+}
+
+.body-div {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+    border: 2px solid green;
+    background-color: aqua;
+}
+
+.box-div2 {
+    width: 100%;
+    height: 40vh;
+    border: 2px solid red;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-div2 .box2 {
+    width: 32%;
+    height: 40vh;
+    border: 2px solid yellow;
+    background-color: rgb(245, 243, 243);
+
+}
+
+.box-div2 .box2 .sub-box {
+    width: 100%;
+    height: 19vh;
+    border: 2px solid red;
+    background-color: rgb(245, 243, 243);
+    margin-top: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    border: 2px solid green;
+    margin-top: 10px;
+    text-align: center;
+    align-items: 50px;
+}

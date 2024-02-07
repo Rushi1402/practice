@@ -1,0 +1,77 @@
+.wrapper {
+    width: 80%;
+    background-color: beige;
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px 250px 200px 200px 300px 200px;
+    text-align: center;
+    grid-template-areas: "header header header header header header"
+        "s1 r r r r s2"
+        "s1 p1 p2 p3 p4 s2"
+        "s1 fashion1 fashion1 fashion2 fashion2 s2"
+        "s1 fashion1 fashion1 fashion3 fashion3 s2"
+        "footer footer footer footer footer footer";
+    grid-gap: 10px;
+
+}
+
+.header {
+    background-color: red;
+    grid-area: header;
+}
+
+.recent {
+    background-color: aqua;
+    grid-area: r;
+}
+
+.sidebar1 {
+    background-color: aqua;
+    grid-area: s1;
+}
+
+.p1 {
+    background-color: aqua;
+    grid-area: p1;
+}
+
+.p2 {
+    background-color: aqua;
+    grid-area: p2;
+}
+
+.p3 {
+    background-color: gold;
+    grid-area: p3;
+}
+
+.p4 {
+    background-color: violet;
+    grid-area: p4;
+}
+
+.sidebar2 {
+    background-color: aqua;
+    grid-area: s2;
+}
+
+.fashion1 {
+    background-color: navajowhite;
+    grid-area: fashion1;
+}
+
+.fashion2 {
+    background-color: aliceblue;
+    grid-area: fashion2;
+}
+
+.fashion3 {
+    background-color: yellow;
+    grid-area: fashion3;
+}
+
+.footer {
+    background-color: gray;
+    grid-area: footer;
+}
