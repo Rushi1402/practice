@@ -1,0 +1,114 @@
+body {
+    width: 80%;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px 300px 100px 100px 100px 100px;
+    text-align: center;
+    grid-template-areas: "h h h  "
+        "s s s "
+        "s1 s2 s3"
+        "p1 p1 p1 "
+        "p2 p3 p4"
+        "p5 p6 p7"
+        "t t t"
+        "t1 t2 t3";
+    grid-gap: 10px;
+
+}
+
+.header {
+    background-color: aqua;
+    grid-area: h;
+}
+
+.service {
+    background-color: chocolate;
+    grid-area: s;
+
+}
+
+.sbox1 {
+    background-color: red;
+    grid-area: s1;
+
+}
+
+.sbox2 {
+    background-color: chocolate;
+    grid-area: s2;
+
+}
+
+.sbox3 {
+    background-color: green;
+    grid-area: s3;
+
+}
+
+.portpolio {
+    background-color: orange;
+    grid-area: p1;
+
+}
+
+.p1 {
+    background-color: yellow;
+    grid-area: p2;
+
+}
+
+.p2 {
+    background-color: pink;
+    grid-area: p3;
+
+}
+
+.p3 {
+    background-color: chocolate;
+    grid-area: p4;
+
+}
+
+.p4 {
+    background-color: burlywood;
+    grid-area: p5;
+
+}
+
+.p5 {
+    background-color: fuchsia;
+    grid-area: p6;
+
+}
+
+.p6 {
+    background-color: deepskyblue;
+    grid-area: p7;
+
+}
+
+.team {
+    background-color: deeppink;
+    grid-area: t;
+
+}
+
+.ph1 {
+    background-color: chartreuse;
+    grid-area: t1;
+
+}
+
+.ph2 {
+    background-color: aqua;
+    grid-area: t2;
+
+}
+
+.ph3 {
+    background-color: antiquewhite;
+    grid-area: t3;
+
+}
